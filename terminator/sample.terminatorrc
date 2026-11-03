@@ -1,0 +1,31 @@
+# Terminator Configuration File (~/.terminatorrc)
+# Format: action_name = Key_Combination
+#
+# Supported actions:
+#   move_left    - Move cursor left within line
+#   move_right   - Move cursor right within line
+#   move_start   - Move to start of line
+#   move_end     - Move to end of line
+#   hist_prev    - Browse previous command in history
+#   hist_next    - Browse next command in history
+#   del_start    - Delete from cursor to start of line
+#   del_end      - Delete from cursor to end of line
+#   del_word     - Delete previous word
+#   clear_screen - Clear the screen
+#   exit_shell   - Exit tab shell / send EOF
+#   copy         - Copy selected text to X11 clipboard
+#   paste        - Paste from X11 clipboard
+
+move_left    = Left
+move_right   = Right
+move_start   = Ctrl+A
+move_end     = Ctrl+E
+hist_prev    = Up
+hist_next    = Down
+del_start    = Ctrl+U
+del_end      = Ctrl+K
+del_word     = Ctrl+W
+clear_screen = Ctrl+L
+exit_shell   = Ctrl+D
+copy         = Ctrl+Shift+C
+paste        = Ctrl+Shift+V
